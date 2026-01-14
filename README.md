@@ -94,9 +94,9 @@ https://learn.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql
 ---
 
 ## Functions Implemented
-- `get_engine()` – connects to Azure SQL Database  
-- `ingest_data()` – uploads CSV files into SQL tables  
-- `clean_data()` – cleans and prepares data for analysis  
+- `connecting_db()` – connects to Azure SQL Database  
+- `ingesting_data()` – uploads CSV files into SQL tables  
+- `data_processing()` – cleans and prepares data for analysis  
 
 These functions improve code reusability and maintainability.
 
